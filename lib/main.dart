@@ -84,8 +84,7 @@ class _MyHomePageState extends State<MyHomePage> {
           return Material(
               child: Ink(
             decoration: const BoxDecoration(
-                gradient: RadialGradient(
-                    radius: 0.6, colors: <Color>[Colors.white, Colors.blue]),
+                gradient: RadialGradient(radius: 0.6, colors: <Color>[Colors.white, Colors.blue]),
                 color: Colors.blue,
                 borderRadius: BorderRadius.all(Radius.circular(8.0))),
             child: InkWell(
